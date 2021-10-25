@@ -1,0 +1,1 @@
+!function(t,e,i){"use strict";i("input,select,textarea").not("[type=submit]").jqBootstrapValidation()}(window,document,jQuery);

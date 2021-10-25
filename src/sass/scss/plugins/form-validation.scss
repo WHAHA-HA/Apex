@@ -1,0 +1,73 @@
+.form-group{
+  &.issue{
+    .help-block, .help-inline{
+      color: theme-color("warning");
+    }
+    input, select, textarea{
+      color: theme-color("warning");
+      border-color: theme-color("warning");
+    }
+    input:focus, select:focus, textarea:focus{
+      border-color: #CE2605;
+      -webkit-box-shadow: 0 0 6px #FCA08E;
+         -moz-box-shadow: 0 0 6px #FCA08E;
+              box-shadow: 0 0 6px #FCA08E;
+    }
+    .input-prepend, .input-append {
+      .add-on{
+        color: theme-color("warning");
+        background-color: #FED2C9;
+        border-color: theme-color("warning");
+      }
+    }
+  }
+
+  &.error{
+    .help-block, .help-inline{
+      color: theme-color("danger");
+    }
+    input, select, textarea{
+      color: theme-color("danger");
+      border-color: theme-color("danger");
+    }
+    input:focus, select:focus, textarea:focus{
+      border-color: #B41323;
+      -webkit-box-shadow: 0 0 6px #F38C96;
+         -moz-box-shadow: 0 0 6px #F38C96;
+              box-shadow: 0 0 6px #F38C96;
+    }
+    .input-prepend, .input-append {
+      .add-on{
+        color: theme-color("danger");
+        background-color: #FACACF;
+        border-color: theme-color("danger");
+      }
+    }
+  }
+
+  &.validate{
+    .help-block, .help-inline{
+      color: theme-color("success");
+    }
+    input, select, textarea{
+      color: theme-color("success");
+      border-color: theme-color("success");
+    }
+    input:focus, select:focus, textarea:focus{
+      border-color: #34C5A1;
+      -webkit-box-shadow: 0 0 6px #78DCC3;
+         -moz-box-shadow: 0 0 6px #78DCC3;
+              box-shadow: 0 0 6px #78DCC3;
+    }
+    .input-prepend, .input-append {
+      .add-on{
+        color: theme-color("success");
+        background-color: #DDF6F0;
+        border-color: theme-color("success");
+      }
+    }
+  }
+  .help-block ul{
+    padding-left: 1.5rem;
+  }
+}

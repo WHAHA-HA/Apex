@@ -1,0 +1,187 @@
+.ct-grid{
+    stroke-dasharray: 0px;
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.ct-label{
+    font-size: 0.9rem;
+}
+
+// Line with Area Chart CSS Starts
+
+.lineArea .ct-series-a .ct-area {
+    fill-opacity: 0.7;
+    fill:url(#gradient1) !important;
+}
+
+.lineArea .ct-series-b .ct-area {
+    fill: url(#gradient) !important;
+    fill-opacity: 0.9;
+}
+.lineArea .ct-line{
+    stroke-width: 0px;
+}
+.lineArea .ct-point {
+    stroke-width: 0px;
+}
+
+// Line with Area Chart 1 CSS Ends
+
+// Stack Bar Chart CSS Starts
+
+.Stackbarchart{
+    .ct-series-a {
+        .ct-bar{
+            stroke: url(#linear) !important
+        }
+    }
+    .ct-series-b {
+        .ct-bar{
+            stroke: #e9e9e9;
+        }
+    }
+}
+
+// Stack Bar Chart CSS Ends
+
+// Line with Area Chart 2 CSS Starts
+
+.lineAreaDashboard .ct-series-a .ct-area {
+    fill: url(#gradient2) !important;
+    fill-opacity: 0.8;
+}
+
+.lineAreaDashboard .ct-series-b .ct-area {
+    fill: url(#gradient3) !important;
+    fill-opacity: 0.8;
+}
+
+.lineAreaDashboard .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineAreaDashboard .ct-series-b .ct-point-circle{
+    stroke: #843cf7;
+}
+
+.lineAreaDashboard .ct-series-b .ct-line{
+    stroke: #A675F4;
+}
+
+.lineAreaDashboard .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineAreaDashboard .ct-line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+// Line with Area Chart 2 CSS Ends
+
+// Line Chart CSS Starts
+
+.lineChart .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineChart .ct-series-a .ct-point-circle {
+    stroke: white;
+}
+.lineChart .ct-series-a .ct-point {
+    stroke: white;
+}
+
+.lineChart .ct-line {
+    fill: none;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.lineChart .ct-label {
+    color: #FFF;
+}
+
+.lineChartShadow {
+    -webkit-filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+// Line Chart  CSS Ends
+ 
+  // Donut Chart  CSS Ends
+  .donut .ct-done .ct-slice-donut {
+    stroke: #0CC27E;
+    stroke-width: 24px !important;
+  }
+  .donut .ct-progress .ct-slice-donut {
+    stroke: #FFC107;
+    stroke-width: 16px !important;
+  }
+  .donut .ct-outstanding .ct-slice-donut {
+    stroke: #7E57C2;
+    stroke-width: 8px !important;
+  }
+  
+  .donut .ct-started .ct-slice-donut {
+    stroke: #2196F3;
+    stroke-width: 32px !important;
+  }
+
+  .donut .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 20px;
+    fill: #868e96;
+  }
+
+  // Donut Chart  CSS Ends
+
+  // Bar Chart CSS Starts
+
+  .BarChart .ct-series-a .ct-bar:nth-of-type(4n+1) {
+    stroke: url(#gradient7);
+  }
+  .BarChart .ct-series-a .ct-bar:nth-of-type(4n+2) {
+    stroke: url(#gradient5);
+  }
+  .BarChart .ct-series-a .ct-bar:nth-of-type(4n+3) {
+    stroke: url(#gradient6);
+  }
+  .BarChart .ct-series-a .ct-bar:nth-of-type(4n+4) {
+    stroke: url(#gradient4);
+  }
+
+  .BarChartShadow {
+    -webkit-filter: drop-shadow( 0px 20px 8px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 20px 8px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+// Bar Chart CSS Ends
+
+// Widget line Chart CSS Starts
+
+.WidgetlineChart .ct-point {
+    stroke-width: 0px;
+}
+.WidgetlineChart .ct-line{
+    stroke: #fff;
+}
+
+
+.WidgetlineChart .ct-grid {
+    stroke-dasharray: 0px;    
+     stroke: rgba(255, 255, 255, 0.2);
+}
+
+.WidgetlineChartshadow {
+    -webkit-filter: drop-shadow( 0px 15px 5px rgba(0,0,0,0.8) );
+            filter: drop-shadow( 0px 15px 5px rgba(0,0,0,0.8) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+// Widget line Chart CSS Ends

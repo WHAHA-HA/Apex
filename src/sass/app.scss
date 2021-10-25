@@ -1,0 +1,12 @@
+@import "scss/variables";
+@import "scss/bootstrap/bootstrap";
+@import "scss/core/palette";
+@import "scss/app-variables";
+@import "scss/mixins";
+@import "scss/custom-bootstrap";
+@import "scss/core";
+@import "scss/fonts/weather-icons";
+@import "scss/plugins";
+@import "scss/pages";
+@import "scss/customizer"; // Remove this SCSS from production
+@import "scss/demo";  // Remove this SCSS from production

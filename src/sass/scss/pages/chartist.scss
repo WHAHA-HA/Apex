@@ -1,0 +1,145 @@
+.ct-area {
+    stroke: none;
+    fill-opacity: 0.1;
+}
+
+.ct-grid{
+    stroke-dasharray: 0px;
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.ct-label{
+    font-size: 0.9rem;
+}
+
+// Line with Area Chart 1 CSS Starts
+
+.lineArea1 .ct-series-a .ct-area {
+    fill-opacity: 0.3;
+    fill: #FF586B;
+}
+
+.lineArea1 .ct-series-b .ct-area {
+    fill: #FF586B;
+    fill-opacity: 0.6;
+}
+.lineArea1 .ct-line{
+    stroke: #FF586B;
+    stroke-width: 0px;
+}
+.lineArea1 .ct-point {
+    stroke-width: 0px;
+}
+
+// Line with Area Chart 1 CSS Ends
+
+// Line with Area Chart 2 CSS Starts
+.lineArea2 .ct-series-a .ct-area {
+    fill-opacity: 0.2;
+    fill: url(#gradient1) !important;
+}
+
+.lineArea2 .ct-series-b .ct-area {
+    fill: url(#gradient2) !important;
+    fill-opacity: 0.2;
+}
+
+.lineArea2 .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineArea2 .ct-series-b .ct-point-circle {
+    stroke: #ff8d60;
+}
+
+.lineArea2 .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineArea2 .ct-line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+// Line with Area Chart 2 CSS Ends
+
+// Line with Area Chart 3 CSS Starts
+
+.lineArea3 .ct-series-a .ct-area {
+    fill-opacity: 0.2;
+    fill: url(#gradient) !important;
+}
+
+.lineArea3 .ct-series-b .ct-area {
+    fill: #ff8d60;
+    fill-opacity: 0.1;
+}
+
+.lineArea3 .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineArea3 .ct-series-b .ct-point-circle {
+    stroke: #ff8d60;
+}
+
+.lineArea3 .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineArea3 .ct-line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+// Line with Area Chart 3 CSS Ends
+
+// line Chart 1 CSS Starts
+
+.lineChart1 .ct-line {
+    fill: none;
+    stroke-width: 3px;
+}
+
+.lineChart1 .ct-point {
+    stroke-width: 0px;
+}
+
+.lineChart1Shadow {
+    -webkit-filter: drop-shadow( 0px 20px 6px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 20px 6px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+//  line Chart 1 CSS Ends
+
+
+// line Chart 2 CSS Starts
+
+.lineChart2 .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineChart2 .ct-series-b .ct-point-circle {
+    stroke: #ff8d60;
+}
+
+.lineChart2 .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineChart2 .ct-line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+
+// line Chart 2 CSS Ends

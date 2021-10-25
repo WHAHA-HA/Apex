@@ -1,0 +1,191 @@
+.ct-grid{
+    stroke-dasharray: 0px;
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.ct-label{
+    font-size: 0.9rem;
+}
+
+//widget Line Chart CSS Starts
+ 
+.WidgetlineChart .ct-point {
+    stroke-width: 0px;
+}
+.WidgetlineChart .ct-line{
+    stroke: #fff;
+}
+.WidgetlineChartShadow {
+    -webkit-filter: drop-shadow( 0px 15px 5px rgba(0,0,0,0.8) );
+            filter: drop-shadow( 0px 15px 5px rgba(0,0,0,0.8) ); /* Same syntax as box-shadow, except for the spread property */
+}
+
+//widget Line Chart CSS Ends
+
+//widget Line Chart 1 CSS Starts
+.WidgetlineChart1 .ct-point {
+    stroke-width: 0px;
+}
+.WidgetlineChart1 .ct-line{
+    stroke: url(#widgradient) !important; // #009DA0; 
+}
+
+.WidgetlineChart1Shadow {
+    -webkit-filter: drop-shadow( 0px 20px 5px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 20px 5px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+//widget Line Chart 1 CSS Ends
+
+//widget Line Chart 2 CSS Starts
+
+.WidgetlineChart2 .ct-point {
+    stroke-width: 0px;
+}
+.WidgetlineChart2 .ct-line{
+    stroke:url(#widgradient1) !important;
+}
+.WidgetlineChart2 .ct-grid {
+    stroke-dasharray: 0px;    
+     stroke: rgba(255, 255, 255, 0.2);
+}
+.WidgetlineChart2Shadow {
+    -webkit-filter: drop-shadow( 0px 20px 5px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 20px 5px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+//widget Line Chart 2 CSS Ends
+
+
+//Donut Chart 1 CSS Starts
+
+.donut1 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 60px;
+    fill: #009DA0;
+  }
+
+  .donut1 .ct-outstanding .ct-slice-donut {
+    stroke: #eee;    
+  }
+
+  .donut1 .ct-done .ct-slice-donut {
+    stroke: #009DA0;
+  }
+
+  //Donut Chart 1 CSS Ends
+
+  //Donut Chart 2 CSS Starts
+
+  .donut2 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 60px;
+    fill: #FF8D60;
+  }
+
+  .donut2 .ct-outstanding .ct-slice-donut {
+    stroke: #eee;    
+  }
+
+  .donut2 .ct-done .ct-slice-donut {
+    stroke: #FF8D60;
+  }
+
+  //Donut Chart 2 CSS Ends
+
+  //Donut Chart 3 CSS Starts
+
+  .donut3 .ct-label {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-size: 60px;
+    fill: #FF586B;
+  }
+
+  .donut3 .ct-outstanding .ct-slice-donut {
+    stroke: #eee;    
+  }
+
+  .donut3 .ct-done .ct-slice-donut {
+    stroke: #FF586A;
+  }
+
+  //Donut Chart 3 CSS Ends
+
+  // Line area chart CSS Starts
+
+  .lineAreaChart .ct-series-a .ct-area {
+    fill: url(#gradient) !important;
+}
+
+.lineAreaChart .ct-series-b .ct-area {
+    fill: #ff8d60;
+    fill-opacity: 0.1;
+}
+
+.lineAreaChart .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineAreaChart .ct-series-b .ct-point-circle {
+    stroke: #ff8d60;
+}
+
+.lineAreaChart .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineAreaChart .ct-line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+// Line area chart CSS Ends
+
+//Line chart 2 CSS Starts
+
+.lineChart2 .ct-point-circle {
+    stroke-width: 2px;
+    fill: white;
+}
+
+.lineChart2 .ct-series-b .ct-point-circle {
+    stroke: #ff8d60;
+}
+
+.lineChart2 .ct-series-a .ct-point-circle {
+    stroke: #31afb2;
+}
+
+.lineChart2 .ct-line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+.lineChart2Shadow {
+    -webkit-filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 25px 8px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+//Line chart 2 CSS Ends
+
+//Line Chart 1 CSS Starts
+
+.lineChart1 .ct-line {
+    fill: none;
+    stroke-width: 3px;
+}
+
+.lineChart1 .ct-point {
+    stroke-width: 0px;
+}
+
+.lineChart1Shadow {
+    -webkit-filter: drop-shadow( 0px 20px 6px rgba(0,0,0,0.3) );
+            filter: drop-shadow( 0px 20px 6px rgba(0,0,0,0.3) ); /* Same syntax as box-shadow, except 
+                                                       for the spread property */
+}
+//Line Chart 1 CSS Ends
